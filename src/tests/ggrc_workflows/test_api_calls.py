@@ -115,7 +115,7 @@ class TestWorkflowsApiPost(TestCase):
             },
             "workflow": {
                 "id": wf["id"],
-                "href": "/api/workflows/%d" % wf["id"],
+                "href": "/api/api_framework/%d" % wf["id"],
                 "type": "Workflow"
             },
             "context": {
