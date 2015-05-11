@@ -1,0 +1,20 @@
+@author Ambarish Sakhare
+
+Json formatter: https://www.jsoneditoronline.org/
+
+Program Creation:
+{"program":{"custom_attribute_definitions":[],"custom_attributes":{},"_transient":{},"contact":{"id":758,"href":"/api/people/758","type":"Person"},"kind":"Directive","_transient:title":null,"title":"gvkjhgvhgvhg","private":true,"description":"jhjh","secondary_contact":null,"notes":"nmmn","url":"https://dddd.com","reference_url":"https://sss.com","slug":"","start_date":"05/26/2015","end_date":"05/28/2015","status":"Draft","context":null,"provisional_id":"provisional_9537105"}}
+
+
+Default
+{"program":{"custom_attribute_definitions":[],"custom_attributes":{},"_transient":{},"contact":{"id":758,"href":"/api/people/758","type":"Person"},"kind":"Directive","_transient:title":null,"title":"jjhjh","private":false,"description":"","secondary_contact":null,"notes":"","url":"","reference_url":"","slug":"","start_date":"","end_date":"","status":"Draft","context":null,"provisional_id":"provisional_2961502"}}
+
+
+Workflow Creation:
+{"workflow": {"status": "Draft", "notify_custom_message": "", "custom_attribute_values": [], "notify_on_change": false, "description": "", "end_date": null, "people": [{"context_id": null, "href": "/api/people/358", "type": "Person", "id": 358}], "updated_at": "2015-05-05T23:45:24", "frequency": "one_time", "recurrences": false, "id": 270, "object_folders": [], "modified_by": {"context_id": null, "href": "/api/people/358", "type": "Person", "id": 358}, "next_cycle_start_date": null, "object_approval": false, "title": "a3", "task_groups": [], "created_at": "2015-05-05T23:45:24", "workflow_state": null, "slug": "WORKFLOW-270", "context": {"context_id": null, "href": "/api/contexts/398", "type": "Context", "id": 398}, "workflow_people": [{"context_id": 398, "href": "/api/workflow_people/410", "type": "WorkflowPerson", "id": 410}], "cycles": [], "type": "Workflow", "start_date": null, "selfLink": "/api/workflows/270", "viewLink": "/workflows/270"}}
+
+Policy Creation:
+{"policy":{"kind":"","owners":[],"custom_attribute_definitions":[{"id":48,"href":"/api/custom_attribute_definitions/48","type":"CustomAttributeDefinition"},{"id":47,"href":"/api/custom_attribute_definitions/47","type":"CustomAttributeDefinition"},{"id":46,"href":"/api/custom_attribute_definitions/46","type":"CustomAttributeDefinition"}],"custom_attributes":{},"_transient":{},"contact":{"id":758,"href":"/api/people/758","type":"Person"},"_transient:title":null,"title":"dcwdcdc","description":"","secondary_contact":null,"notes":"","url":"","reference_url":"","slug":"","start_date":"","end_date":"","status":"Draft","context":null,"provisional_id":"provisional_7535482"}}
+
+Object Owner for policy creation:
+{"object_owner":{"context":null,"ownable":{"id":8786,"href":"/api/policies/8786","type":"Policy"},"person":{"id":758,"href":"/api/people/758","type":"Person"},"provisional_id":"provisional_3386275"}}

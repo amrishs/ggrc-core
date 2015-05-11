@@ -1,0 +1,8 @@
+@author Ambarish Sakhare
+
+Common errors
+
+403: If object already exists/forbidden
+302: If you are not using the current instance of the class (self).
+400: URL could be wrong
+405: method not allowed, url is wrong

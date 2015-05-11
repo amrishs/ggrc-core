@@ -1,0 +1,6 @@
+=> How to run api test cases?
+Assuming you have vagrant vm already running,
+1] First cd to the path where you test case file resides
+2] Then run a command: python -m unittest filename.classname.methodname
+Example:
+python -m unittest test_workflow_creation.TestWorkflowCreation.testWithSysWideReaderRole
